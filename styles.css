@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+}
+
+#game {
+    background-color: chocolate;
+    display: flex;
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    background-color: darkgoldenrod;
+    border-left: solid rgb(12, 29, 82) 10px;
+    border-right: solid rgb(12, 29, 82) 10px;
+    border-top: solid rgb(54, 88, 192) 10px;
+    border-bottom: solid rgb(12, 29, 82) 10px;
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.first-button {
+    background-color: green;
+}
+
+.second-button {
+    background-color: red;
+}
+
+.genre-title {
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.correct-answer {
+    background-color: greenyellow;
+}
+
+.wrong-answer {
+    background-color: mediumvioletred;
+}
