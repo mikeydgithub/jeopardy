@@ -119,6 +119,8 @@ const jeopradyCategories = [
     }
 ]
 
+let score = 0
+
 function addCategory(category) {
     const column = document.createElement('div')
     column.classList.add('genre-column')
@@ -160,7 +162,7 @@ function addCategory(category) {
 jeopradyCategories.forEach(category => addCategory(category))
 
 function flipCard() {
-    this.innerHTML = ''
+    this.innerHTML = ""
     this.style.fontSize = "15px"
     this.style.lineHeight = "30px"
     const textDisplay = document.createElement('div')
@@ -182,7 +184,7 @@ function flipCard() {
 
     this.append(textDisplay, firstButton, secondButton)
 
-    const allCards = Array.from(document.querySelector('card'))
+    const allCards = Array.from(document.querySelector('.card'))
     allCards.forEach(card => card.removeEventListener('click', flipCard))
 }
 

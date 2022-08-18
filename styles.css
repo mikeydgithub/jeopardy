@@ -12,6 +12,7 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+
 #game {
     background-color: chocolate;
     display: flex;
@@ -54,4 +55,14 @@ body {
 
 .wrong-answer {
     background-color: mediumvioletred;
+}
+
+
+@media screen and (max-width: 1080px) {
+    #game {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+    }
 }
