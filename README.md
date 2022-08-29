@@ -1,6 +1,6 @@
-## Title
+## Jeoprady
 
-# Jeoprady
+https://mikeydgithub.github.io/jeopardy/
 
   ## Table of Contents
   1. [Title](#Title)
